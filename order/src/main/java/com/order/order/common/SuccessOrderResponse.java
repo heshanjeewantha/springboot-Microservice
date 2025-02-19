@@ -10,6 +10,8 @@ public class SuccessOrderResponse implements OrderResponse {
     private final OrderDTO order;
 
     public SuccessOrderResponse(OrderDTO order) {
+
         this.order = order;
+
     }
 }
